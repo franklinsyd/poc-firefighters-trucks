@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^reports/?$ - [F,L]
+
+RewriteRule ^core/?$ - [F,L]

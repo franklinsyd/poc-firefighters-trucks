@@ -1,0 +1,424 @@
+# user_table
+ID     
+surname   	varchar 255
+initials  	varchar 5
+id_no  		varchar 13
+email 		varchar 255
+cell_no     integer 11
+user_type int(5)
+
+# new_riv_fire_truck
+
+ID
+id_no	varchar 13
+
+hydraulic_jack
+ac_power_supply_cord
+life_jacekts
+emergency_triangle
+small_first_aid_kit
+tyre_spanner_set
+medical_gloves_box
+dust_mask
+torch
+winch_controller
+
+dcp_unit
+nitrogen_cyl
+power_gun
+loop_sling
+dcp_hose_reel
+
+wolf_lamp_and_charger
+light_mast_control_unit
+haz_mat_bag
+
+portable_generator
+spark_plug
+spark_plug_spanner
+
+tools_box
+rescue_line_90_meters
+gp_line
+
+45_dcp_fire_extinguisher
+38_25_m_hose
+64_30_m_hose
+
+hydrant_f_key
+cross_wheel_spanner
+38_mm_branch
+
+main_pump
+suction_wrench
+
+line_rescue_helmets
+5kg_co2_fire_extinguisher
+spade
+rescue_harness_restraints
+pinch_bar
+cooler_box
+hydrant_key
+rigging_plats_anchor_straps
+
+dyna_medical_black_pack
+para_guard_stretcher
+
+scba_sets
+fall_arresters_ascenders_pack
+auto_lock_descender_pack
+locking_karabiners_pack
+
+foam_drum
+pick_up_tube
+waste_disposal_plastic_bins
+cafs_foam_branch
+
+cafs_system
+
+38_25_mtr_hose
+
+extension_ladder
+hard_suction_hose
+mast_light
+
+water_level
+foam_level
+diesel_level
+
+
+#Emal Fire Dril Evacuation Report #######################
+
+table name  :  fire_drill_report
+
+
+
+
+check_date
+check_time
+surname   	varchar 255
+initials  	varchar 5
+id_no  		varchar 13
+
+building_name varchar 255
+building_number varchar 255
+evacuation_observer  varchar 255
+time_taken varchar 50
+evacuation_type_emergency int 2
+evacuation_type_planned  int 2
+
+
+#Question 1
+
+oic_notified_yes int 2
+oic_notified_no int 2
+oic_notified_com  text 400
+#Question 2
+
+all_occupant_yes int 2
+all_occupant_no int 2
+all_occupant_com text 400
+
+#Question 3
+alarm_yes int 2
+alarm_no int 2
+alarm_com text 400
+
+
+#Question 4
+
+smoke_fire_yes int 2
+smoke_fire_no int 2
+smoke_fire_com  text 400
+
+
+#Question 5
+wardens_staff_yes int 2
+wardens_staff_no  int 2
+wardens_staff_com text 400
+
+#Question 6
+wardens_id_yes int 2
+wardens_id_no int 2
+wardens_id_com text 400
+
+#Question 7
+assembly_area_yes  int 2
+assembly_area_no int 2
+assembly_area_com text 400
+
+#Question 8
+adequate_evacuation_yes int 2
+adequate_evacuation_no int 2
+adequate_evacuation_com text 400
+
+#Question 9
+exit_ways_yes int 2
+exit_ways_no int 2
+exit_ways_com  text 400
+
+#Question 10
+
+firefightinge_equip_yes int 2
+firefightinge_equip_no int 2
+firefightinge_equip_com text 400
+
+#Question 11
+
+person_responsible_yes int 2
+person_responsible_no int 2
+person_responsible_com text 400
+
+#Question 12
+
+warden_training_yes int 2
+warden_training_no int 2
+warden_training_com text 400
+
+#Question 13
+
+evacuation_successful_yes int 2
+evacuation_successful_no int 2
+evacuation_successful_com  text 400
+
+
+#Fire Satefy #########################
+
+ID 
+check_date
+id_no
+surname   	varchar 255
+initials  	varchar 5
+
+building_name  varchar 255
+building_number varchar 255
+inspection_supervisor varcahr 255
+
+#################
+
+
+premises_kept_clear_yes int 2
+premises_kept_clear_no int 2
+
+
+clearly_labeled_yes int 2
+clearly_labeled_no int 2
+
+
+waste_removed_yes int 2
+waste_removed_no int 2
+
+
+waste_safe_place_yes int 2
+waste_safe_place_no int 2
+
+pipe_beams_yes int 2
+pipe_beams_no int 2
+
+area_kept_free_yes int 2
+area_kept_free_no int 2
+
+############
+
+are_gas_cyl_yes int 2
+are_gas_cyl_no int 2
+
+cyl_moved_yes int 2
+cyl_moved_no int 2
+
+empty_cylinders_yes int 2
+empty_cylinders_no int 2
+
+permanent_warning_notice_yes int 2
+permanent_warning_notice_no int 2
+
+
+cyl_valve_uppermost_yes int 2
+cyl_valve_uppermost_no int 2
+
+#############
+
+f_liquids_stores_yes int 2
+f_liquids_stores_no int 2
+
+f_liquids_uncongested_yes int 2
+f_liquids_uncongested_no int 2
+
+f_liquids_containers_yes int 2
+f_liquids_containers_no int 2
+
+f_liquids_minimum_yes int 2
+f_liquids_minimum_no int 2
+
+f_liquids_away_yes int 2
+f_liquids_away_no int 2
+
+############
+
+smoking_prohibited_yes int 2
+smoking_prohibited_no int 2
+
+smoking_permitted_yes int 2
+smoking_permitted_no int 2
+
+receptacles_yes int 2
+receptacles_no int 2
+
+########
+
+cables_not_worn_yes int 2
+cables_not_worn_no int 2
+
+sockets_good_yes int 2
+sockets_good_no int 2
+
+power_point_yes int 2
+power_point_no int 2
+
+######
+
+exit_obstruction_yes int 2
+exit_obstruction_no int 2
+
+efficient_signage_yes int 2
+efficient_signage_no int 2
+
+doors_open_freely_yes int 2
+doors_open_freely_no int 2
+
+path_exit_doors_yes int 2
+path_exit_doors_no int 2
+
+###########
+
+extinquishers_test_yes
+extinquishers_test_no
+
+extinquishers_correct_yes
+extinquishers_correct_no
+
+extinquishers_accessible_yes
+extinquishers_accessible_no
+
+signage_displayed_yes
+signage_displayed_no
+
+emal_displayed_yes
+emal_displayed_no
+
+manual_call_yes
+manual_call_no
+
+fire_panel_good_yes
+fire_panel_good_no
+
+
+
+############# Comments fields
+
+
+premises_kept_clear_com
+clearly_labeled_com
+waste_removed_com
+waste_safe_place_com
+pipe_beams_com
+area_kept_free_com
+are_gas_cyl_com
+cyl_moved_com
+empty_cylinders_com
+permanent_warning_notice_com
+
+cyl_valve_uppermost_com
+f_liquids_stores_com
+f_liquids_uncongested_com
+f_liquids_containers_com
+f_liquids_minimum_com
+f_liquids_away_com
+smoking_prohibited_com
+smoking_permitted_com
+receptacles_com
+cables_not_worn_com
+
+sockets_good_com
+power_point_com
+exit_obstruction_com
+efficient_signage_com
+doors_open_freely_com
+path_exit_doors_com
+
+extinquishers_test_com
+extinquishers_correct_com
+extinquishers_accessible_com
+signage_displayed_com
+
+emal_displayed_com
+manual_call_com
+fire_panel_good_com
+
+
+
+
+#### Risk Assess #####
+
+id_no
+surname   	varchar 255
+initials  	varchar 5
+
+new_risk_assess    INT 2
+review_risk_assess  INT 2
+
+date_of_issue  DATETIME
+company  VARCHAR 255
+division_department  VARCHAR 255
+
+describe_activity TEXT 400
+prepared_by_name VARCHAR 255
+prepared_by_des VARCHAR 255
+
+approved_by_name VARCHAR 255
+approved_by_des VARCHAR 255
+
+dpt_approval_name VARCHAR 255
+dpt_approval_des VARCHAR 255
+
+s_no VARCHAR 255
+hazard_title VARCHAR 255
+
+hazard_details VARCHAR 255
+causes VARCHAR 255
+consequences VARCHAR 255
+legal_requirements VARCHAR 2
+
+risk_assess_p VARCHAR 2
+risk_assess_a VARCHAR 2
+risk_assess_e VARCHAR 2
+risk_assess_r VARCHAR 2
+risk_assess_ri VARCHAR 2
+
+existing_controls VARCHAR 255
+additional_controls VARCHAR 255
+
+
+res_risk_p VARCHAR 2
+res_risk_a VARCHAR 2
+res_risk_e VARCHAR 2
+res_risk_r VARCHAR 2
+res_risk_ri VARCHAR 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
